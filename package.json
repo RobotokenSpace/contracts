@@ -1,0 +1,44 @@
+{
+  "name": "@robotokenspace/contracts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ROBOTOKEN SMART CONTRACTS",
+  "author": {
+    "name": "ROBOTOKEN",
+    "email": "support@robotoken.space",
+    "url": "https://robotoken.space"
+  },
+  "scripts": {
+    "clean": "rimraf ./build/ && mkdirp ./build/",
+    "precompile": "yarn clean",
+    "compile": "truffle compile"
+  },
+  "homepage": "https://github.com/RobotokenSpace/contracts#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobotokenSpace/contracts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RobotokenSpace/contracts/issues",
+    "email": "support@robotoken.space"
+  },
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0"
+  },
+  "devDependencies": {
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2",
+    "truffle": "^5.4.17"
+  },
+  "contributors": [
+    {
+      "name": "Aleksandr Ivannikov",
+      "email": "dev@an-ivannikov.com",
+      "url": "https://an-ivannikov.com"
+    }
+  ]
+}
